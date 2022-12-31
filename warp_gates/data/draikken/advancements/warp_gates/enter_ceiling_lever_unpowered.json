@@ -1,0 +1,23 @@
+{
+	"__comment": "Made by draikken",
+	"criteria": {
+		"unpowered": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:lever",
+				"state": {
+					"powered": "false",
+					"face": "ceiling"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"unpowered"
+		]
+	],
+	"rewards": {
+		"function": "draikken:warp_gates/entered_ceiling_lever_unpowered"
+	}
+}

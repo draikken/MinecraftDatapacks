@@ -1,0 +1,1 @@
+scoreboard players set @a draikken_teleFlag 0
